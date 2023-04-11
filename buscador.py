@@ -14,7 +14,7 @@ def get_title(entrada):
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-    } #qual buscador ele vai usar
+    }
 
     data = []
     r = requests.get("https://www.google.com/search", params=params, headers=headers, timeout=30)
